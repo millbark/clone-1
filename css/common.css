@@ -1,0 +1,172 @@
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.inner {
+  width: 1203px;
+  margin: auto;
+}
+button {
+  cursor: pointer;
+}
+body {
+  overflow-x: hidden;
+  width: 1920px;
+  line-height: 1;
+  font-family: SpeedeeK, Malgun Gothic, "맑은 고딕", Dotum, "돋움", Arial,
+    sans-serif;
+  color: #292929;
+}
+/*헤더부분*/
+header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 200;
+  width: 100%;
+  height: 140px;
+  line-height: 140px;
+  background: #fff;
+}
+header .inner {
+  width: 1170px;
+  margin: auto;
+}
+header .inner nav a {
+  display: block;
+  height: 100%;
+  padding: 0 55px;
+  font-size: 20px;
+  font-weight: bold;
+}
+header .inner > ul {
+  margin: 0 40px 0 30px;
+}
+header .inner > ul,
+header .inner > button {
+  margin-top: 52px;
+}
+header .inner > ul li a {
+  display: block;
+  width: 80px;
+  height: 38px;
+  line-height: 38px;
+  text-align: center;
+  border-radius: 48px;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 600;
+}
+header .inner > ul > li:first-child > a {
+  background-color: #db0007;
+}
+header .inner > ul > li:nth-child(2) > a {
+  margin: 0 4px;
+  background-color: #d87e00;
+}
+header .inner > ul > li:nth-child(3) > a {
+  background-color: #264a36;
+}
+header .inner button {
+  width: 36px;
+  height: 36px;
+  background: url(../images/header/ico_search.png) no-repeat 0 0;
+}
+main {
+  height: 3100px;
+  margin-top: 140px;
+}
+/*aside 부분*/
+aside {
+  position: fixed;
+  bottom: 50px;
+  right: 215px;
+}
+aside li,
+aside li a {
+  width: 116px;
+  height: 114px;
+}
+aside li {
+  background: no-repeat center 0;
+}
+aside li a {
+  display: block;
+}
+aside li:nth-child(1) {
+  background-image: url(../images/aside/side-1.png);
+}
+aside li:nth-child(2) {
+  background-image: url(../images/aside/side-2.png);
+  margin: 20px 0 40px 0;
+}
+aside p {
+  width: 50px;
+  height: 40px;
+  margin: 0 auto;
+  line-height: 48px;
+  text-align: center;
+  background: url(../images/aside/side-3.png) no-repeat center 0;
+}
+
+/*footer 부분*/
+footer {
+  width: 100%;
+  height: 260px;
+  box-sizing: border-box;
+  padding-top: 40px;
+  color: #fff;
+  font-size: 14px;
+  background: #292929;
+}
+footer .inner {
+  width: 1170px;
+  margin: 0 auto;
+}
+footer .inner .left ul {
+  margin-right: 82px;
+}
+footer .inner .left ul li {
+  padding-bottom: 12px;
+  font-weight: 900;
+}
+footer .inner .left ul li:first-child {
+  color: #ddff00;
+}
+footer .inner .left address {
+  color: #808080;
+}
+footer .inner .left address span {
+  display: block;
+  padding-bottom: 12px;
+}
+footer .inner .right ul li {
+  width: 40px;
+  height: 40px;
+  margin-left: 20px;
+  background: url(../images/footer/ico_sns.png) no-repeat 0 0;
+}
+footer .inner .right ul li:nth-child(1) {
+  background-position: 0 0;
+}
+footer .inner .right ul li:nth-child(2) {
+  background-position: 0 -40px;
+}
+footer .inner .right ul li:nth-child(3) {
+  background-position: 0 -80px;
+}
+footer .inner .right ul li:nth-child(4) {
+  background-position: 0 -120px;
+}
+footer .inner .right ul li a {
+  display: block;
+  width: 40px;
+  height: 40px;
+}
+footer .inner .right p img {
+  width: 100px;
+  height: 70px;
+  margin-left: 20px;
+}
